@@ -1,0 +1,4 @@
+C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.csproj.AssemblyReference.cache
+C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.Properties.Resources.resources
+C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.csproj.GenerateResource.cache
+C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.csproj.CoreCompileInputs.cache
