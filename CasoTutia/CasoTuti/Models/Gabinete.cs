@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CasoTuti.Models
 {
+    [Serializable]
     internal class Gabinete
     {
         public string Identificador;

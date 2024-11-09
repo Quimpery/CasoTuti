@@ -2,3 +2,14 @@ C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.csproj.Assembly
 C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.Properties.Resources.resources
 C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.csproj.GenerateResource.cache
 C:\Users\lauta\source\repos\CasoTuti\CasoTuti\obj\Debug\CasoTuti.csproj.CoreCompileInputs.cache
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\bin\Debug\CasoTuti.exe.config
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\bin\Debug\CasoTuti.exe
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\bin\Debug\CasoTuti.pdb
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.csproj.AssemblyReference.cache
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.Form1.resources
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.Models.FormTurno.resources
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.Properties.Resources.resources
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.csproj.GenerateResource.cache
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.csproj.CoreCompileInputs.cache
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.exe
+C:\Users\lauta\source\repos\CasoTuti\CasoTutia\CasoTuti\obj\Debug\CasoTuti.pdb

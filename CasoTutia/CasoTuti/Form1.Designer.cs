@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.listCliente = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnAsignarTurno = new System.Windows.Forms.Button();
+            this.btnCancelarTurno = new System.Windows.Forms.Button();
+            this.btnVerProfesional = new System.Windows.Forms.Button();
+            this.btnAgregarProfesional = new System.Windows.Forms.Button();
+            this.btnImportarTurnos = new System.Windows.Forms.Button();
+            this.btnExportarProfesional = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listCliente
@@ -45,63 +46,77 @@
             this.listCliente.Size = new System.Drawing.Size(380, 196);
             this.listCliente.TabIndex = 0;
             // 
-            // button1
+            // btnAsignarTurno
             // 
-            this.button1.Location = new System.Drawing.Point(408, 24);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 66);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Asignar Turno";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAsignarTurno.Location = new System.Drawing.Point(408, 24);
+            this.btnAsignarTurno.Name = "btnAsignarTurno";
+            this.btnAsignarTurno.Size = new System.Drawing.Size(100, 66);
+            this.btnAsignarTurno.TabIndex = 1;
+            this.btnAsignarTurno.Text = "AgregarTurno";
+            this.btnAsignarTurno.UseVisualStyleBackColor = true;
+            this.btnAsignarTurno.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnCancelarTurno
             // 
-            this.button2.Location = new System.Drawing.Point(528, 24);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 66);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Cancelar turno";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelarTurno.Location = new System.Drawing.Point(528, 24);
+            this.btnCancelarTurno.Name = "btnCancelarTurno";
+            this.btnCancelarTurno.Size = new System.Drawing.Size(100, 66);
+            this.btnCancelarTurno.TabIndex = 2;
+            this.btnCancelarTurno.Text = "Cancelar turno";
+            this.btnCancelarTurno.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnVerProfesional
             // 
-            this.button3.Location = new System.Drawing.Point(528, 96);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 66);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Ver Profesional";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnVerProfesional.Location = new System.Drawing.Point(528, 96);
+            this.btnVerProfesional.Name = "btnVerProfesional";
+            this.btnVerProfesional.Size = new System.Drawing.Size(100, 66);
+            this.btnVerProfesional.TabIndex = 3;
+            this.btnVerProfesional.Text = "Ver Profesional";
+            this.btnVerProfesional.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnAgregarProfesional
             // 
-            this.button4.Location = new System.Drawing.Point(408, 96);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 66);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Agregar Profesional";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnAgregarProfesional.Location = new System.Drawing.Point(408, 96);
+            this.btnAgregarProfesional.Name = "btnAgregarProfesional";
+            this.btnAgregarProfesional.Size = new System.Drawing.Size(100, 66);
+            this.btnAgregarProfesional.TabIndex = 4;
+            this.btnAgregarProfesional.Text = "Agregar Profesional";
+            this.btnAgregarProfesional.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // btnImportarTurnos
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(22, 248);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(263, 24);
-            this.comboBox1.TabIndex = 5;
+            this.btnImportarTurnos.Location = new System.Drawing.Point(12, 262);
+            this.btnImportarTurnos.Name = "btnImportarTurnos";
+            this.btnImportarTurnos.Size = new System.Drawing.Size(100, 66);
+            this.btnImportarTurnos.TabIndex = 6;
+            this.btnImportarTurnos.Text = "Importar Turnos";
+            this.btnImportarTurnos.UseVisualStyleBackColor = true;
+            // 
+            // btnExportarProfesional
+            // 
+            this.btnExportarProfesional.Location = new System.Drawing.Point(167, 262);
+            this.btnExportarProfesional.Name = "btnExportarProfesional";
+            this.btnExportarProfesional.Size = new System.Drawing.Size(96, 66);
+            this.btnExportarProfesional.TabIndex = 7;
+            this.btnExportarProfesional.Text = "Exportar Profesional";
+            this.btnExportarProfesional.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 381);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(651, 381);
+            this.Controls.Add(this.btnExportarProfesional);
+            this.Controls.Add(this.btnImportarTurnos);
+            this.Controls.Add(this.btnAgregarProfesional);
+            this.Controls.Add(this.btnVerProfesional);
+            this.Controls.Add(this.btnCancelarTurno);
+            this.Controls.Add(this.btnAsignarTurno);
             this.Controls.Add(this.listCliente);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
@@ -109,11 +124,12 @@
         #endregion
 
         private System.Windows.Forms.ListBox listCliente;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnAsignarTurno;
+        private System.Windows.Forms.Button btnCancelarTurno;
+        private System.Windows.Forms.Button btnVerProfesional;
+        private System.Windows.Forms.Button btnAgregarProfesional;
+        private System.Windows.Forms.Button btnImportarTurnos;
+        private System.Windows.Forms.Button btnExportarProfesional;
     }
 }
 

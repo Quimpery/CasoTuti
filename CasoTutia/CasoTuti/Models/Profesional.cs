@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CasoTuti.Models
 {
+    [Serializable]
     internal class Profesional:Persona
     {
         private string especializacion;
@@ -20,7 +21,6 @@ namespace CasoTuti.Models
             base.telefono = telefono;
             this.especializacion = especializacion;
             this.jornada = jornada;
-
         }
 
         public void AgregarTurno(int tiempo)

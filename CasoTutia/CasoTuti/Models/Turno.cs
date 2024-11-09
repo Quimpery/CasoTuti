@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CasoTuti.Models
 {
+    [Serializable]
     internal class Turno:IComparable
     {
         public DateTime dia;
@@ -17,8 +18,6 @@ namespace CasoTuti.Models
             this.dia = DateTime.Now;
             this.duracion = duracion;
             this.estado = estado;
-            
-
         }
         public void AgregarCliente(FichaCliente unCliente)
         {
@@ -33,6 +32,10 @@ namespace CasoTuti.Models
         public override string ToString()
         {
             return "El turno es: " + dia + "Dura un total de: " + duracion.ToString() ;
+        }
+        public string VerTipo()
+        {
+            return estado;
         }
         
         
